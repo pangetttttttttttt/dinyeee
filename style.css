@@ -1,0 +1,121 @@
+body {
+  background: #0e0e0e;
+}
+
+.logo {
+text-align: center;
+display: block;
+font-family: Trebuchet MS;
+color: #ffff;
+font-size: 34px;
+font-weight: 600;
+line-height: 1em;
+text-decoration: none;
+}
+
+.description {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: block;
+  font-family: Poppins,Arial;
+  color: #aaa;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.7em;
+}
+
+.title1 {
+  text-align: center;
+  display: block;
+  color: #a7ccea;
+  font-family: Poppins,Arial;
+  font-weight: 600;
+  font-size: 16.8px;
+  text-decoration: none;
+  margin-top:-17.5px;
+}
+.title2 {
+  text-align: center;
+  display: block;
+  color: #aaa;
+  font-family: Poppins,Arial;
+  font-weight: 500;
+  font-size: 16.8px;
+  text-decoration: none;
+  margin-top:-17.5px;
+}
+
+span.a {
+  display: inline;
+  font-family: Poppins,Arial;
+  color: #95b6d0;
+  font-weight: 500;
+  font-size: 15px;
+  padding left: 15px;
+  padding-right: 15px;
+}
+
+@media only screen and (max-device-width: 320px) {
+  .imgh {
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+}
+@media only screen and (min-device-width: 321px) and (max-device-width: 375px) {
+    .imgh {
+      width: 50%;
+      height: auto;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+    }
+}
+@media only screen and (min-device-width: 376px) and (max-device-width: 425px) {
+  .imgh {
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+}
+@media only screen and (min-device-width: 426px) and (max-device-width: 768px) {
+  .imgh {
+    width: 35%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+}
+@media only screen and (min-device-width: 769px) and (max-device-width: 1024px) {
+  .imgh {
+    width: 20%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+}
+@media only screen and (min-device-width: 1025px) and (max-device-width: 1440px) {
+  .imgh {
+    width: 15%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+}
+@media only screen and (min-device-width: 1441px) and (max-device-width: 2560px) {
+  .imgh {
+    width: 10%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+}
